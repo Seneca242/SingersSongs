@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		04069B8B2A51EE110013F70F /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04069B8A2A51EE110013F70F /* SongsTableViewController.swift */; };
+		04069B8D2A52F3C30013F70F /* AuthorOfTheSongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04069B8C2A52F3C30013F70F /* AuthorOfTheSongTableViewController.swift */; };
 		0459381C2A4AFEAC0018A05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459381B2A4AFEAC0018A05E /* AppDelegate.swift */; };
 		0459381E2A4AFEAC0018A05E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459381D2A4AFEAC0018A05E /* SceneDelegate.swift */; };
 		045938262A4AFEAC0018A05E /* SingersSongs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 045938242A4AFEAC0018A05E /* SingersSongs.xcdatamodeld */; };
 		045938282A4AFEAE0018A05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045938272A4AFEAE0018A05E /* Assets.xcassets */; };
 		0459382B2A4AFEAE0018A05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045938292A4AFEAE0018A05E /* LaunchScreen.storyboard */; };
 		045938332A4B602F0018A05E /* SingersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045938322A4B602F0018A05E /* SingersTableViewController.swift */; };
-		045938352A4B60B20018A05E /* SongsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045938342A4B60B20018A05E /* SongsCollectionViewController.swift */; };
 		0459383A2A4B661E0018A05E /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045938362A4B661E0018A05E /* Singer+CoreDataClass.swift */; };
 		0459383B2A4B661E0018A05E /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045938372A4B661E0018A05E /* Singer+CoreDataProperties.swift */; };
 		0459383C2A4B661E0018A05E /* Song+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045938382A4B661E0018A05E /* Song+CoreDataClass.swift */; };
@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		04069B8A2A51EE110013F70F /* SongsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
+		04069B8C2A52F3C30013F70F /* AuthorOfTheSongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorOfTheSongTableViewController.swift; sourceTree = "<group>"; };
 		045938182A4AFEAC0018A05E /* SingersSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingersSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0459381B2A4AFEAC0018A05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0459381D2A4AFEAC0018A05E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		0459382A2A4AFEAE0018A05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0459382C2A4AFEAE0018A05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045938322A4B602F0018A05E /* SingersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingersTableViewController.swift; sourceTree = "<group>"; };
-		045938342A4B60B20018A05E /* SongsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsCollectionViewController.swift; sourceTree = "<group>"; };
 		045938362A4B661E0018A05E /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
 		045938372A4B661E0018A05E /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		045938382A4B661E0018A05E /* Song+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 				0459381D2A4AFEAC0018A05E /* SceneDelegate.swift */,
 				045938322A4B602F0018A05E /* SingersTableViewController.swift */,
 				04069B8A2A51EE110013F70F /* SongsTableViewController.swift */,
+				04069B8C2A52F3C30013F70F /* AuthorOfTheSongTableViewController.swift */,
 				0494CB9A2A4B7478002BA78A /* DataManager.swift */,
-				045938342A4B60B20018A05E /* SongsCollectionViewController.swift */,
 				045938272A4AFEAE0018A05E /* Assets.xcassets */,
 				045938292A4AFEAE0018A05E /* LaunchScreen.storyboard */,
 				0459382C2A4AFEAE0018A05E /* Info.plist */,
@@ -160,7 +160,7 @@
 			files = (
 				0459383B2A4B661E0018A05E /* Singer+CoreDataProperties.swift in Sources */,
 				0494CB9B2A4B7478002BA78A /* DataManager.swift in Sources */,
-				045938352A4B60B20018A05E /* SongsCollectionViewController.swift in Sources */,
+				04069B8D2A52F3C30013F70F /* AuthorOfTheSongTableViewController.swift in Sources */,
 				0459381C2A4AFEAC0018A05E /* AppDelegate.swift in Sources */,
 				045938332A4B602F0018A05E /* SingersTableViewController.swift in Sources */,
 				045938262A4AFEAC0018A05E /* SingersSongs.xcdatamodeld in Sources */,

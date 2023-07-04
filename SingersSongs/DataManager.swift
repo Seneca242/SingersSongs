@@ -53,6 +53,19 @@ class DataManager {
         return fetchedSingers
     }
     
+//    func fetchSingers2(song: Song) -> [Singer] {
+//        let request: NSFetchRequest<Singer> = Singer.fetchRequest()
+//        request.predicate = NSPredicate(format: "song = %@", song)
+//        var fetchedSingers: [Singer] = []
+//        
+//        do {
+//            fetchedSingers = try viewContext.fetch(request)
+//        } catch let error {
+//            print("Error fetching singers \(error)")
+//        }
+//        return fetchedSingers
+//    }
+    
     func fetchSongs(singer: Singer) -> [Song] {
         let request: NSFetchRequest<Song> = Song.fetchRequest()
         request.predicate = NSPredicate(format: "singer = %@", singer)
@@ -67,6 +80,17 @@ class DataManager {
         return fetchedSongs
     }
     
+//    func fetchSongs2() -> [Song] {
+//        let request: NSFetchRequest<Song> = Song.fetchRequest()
+//        var fetchedSongs: [Song] = []
+//        
+//        do {
+//            fetchedSongs = try viewContext.fetch(request)
+//        } catch let error {
+//            print("Error fetching songs \(error)")
+//        }
+//        return fetchedSongs
+//    }
     
 
     // MARK: - Core Data Saving support
